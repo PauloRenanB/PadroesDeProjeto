@@ -2,7 +2,7 @@ package contas;
 
 public class Conta {
     private int numero;
-    private double saldo;
+    protected double saldo;
     public void setNumero(int x){
         this.numero = x;
     }
